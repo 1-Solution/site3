@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    {{> head title="HTML Tailwind V4 Boilerplate" }}
+  </head>
+  <body class="prose prose-gray max-w-none text-lg">
+    {{> header }}
+    <main>
+      <!-- prettier-ignore -->
+      {{#each sections}}
+        {{#> section-wrapper}}
+          {{> (lookup . "partial") }}
+        {{/section-wrapper}}
+      {{/each}}
+    </main>
+    {{> footer }}
+    <script type="module" src='{{resolve-from-root "../js/main.js"}}'></script>
+  </body>
+</html>
