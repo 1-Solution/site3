@@ -2,7 +2,7 @@
   {
     "id": "hero",
     "partial": "section-hero",
-    "section-classes": "pt-16 lg:pt-32"
+    "section-classes": "pt-16 lg:pt-32 bg-brand"
   },
   {
     "id": "about",

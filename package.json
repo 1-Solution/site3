@@ -13,13 +13,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
     "prettier": "^3.4.2",
+    "tailwindcss": "^4.1.8",
     "vite": "^6.0.2",
     "vite-plugin-handlebars": "^2.0.0"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.15",
-    "@tailwindcss/vite": "^4.0.0-beta.5",
-    "tailwindcss": "^4.0.0-beta.5"
+    "@tailwindcss/typography": "^0.5.15"
   }
 }
