@@ -1,32 +1,17 @@
 [
   {
-    "icon": "/images/feature-1.svg",
-    "title": "Strategic Campaign Planning",
-    "description": "We design data-backed marketing plans that align with your business goals and drive measurable growth."
+    "img": "/images/feature-1.jpg",
+    "title": "Solution",
+    "description": "Nous concevons des solutions logicielles adaptées à vos processus afin de développer des solutions intuitives, évolutives et durables en fonction de vos objectifs d’affaires."
   },
   {
-    "icon": "/images/feature-2.svg",
-    "title": "Brand Identity Development",
-    "description": "From logos to messaging, we craft memorable brand identities that connect with your audience and stand out."
+    "img": "/images/feature-2.jpg",
+    "title": "Croissance",
+    "description": "Nous réactualisons vos logiciels pour améliorer leur performance, leur convivialité et leur sécurité en incluant la logique d’affaires."
   },
   {
-    "icon": "/images/feature-3.svg",
-    "title": "Multi-Channel Advertising",
-    "description": "Reach your customers wherever they are with integrated campaigns across social media, search, and beyond."
-  },
-  {
-    "icon": "/images/feature-4.svg",
-    "title": "Content Creation & Copywriting",
-    "description": "Engage your audience with high-quality content, from blog posts to ad copy, tailored to your brand’s voice."
-  },
-  {
-    "icon": "/images/feature-5.svg",
-    "title": "SEO & Website Optimization",
-    "description": "Improve your visibility online with expert SEO strategies and optimized landing pages that convert visitors into customers."
-  },
-  {
-    "icon": "/images/feature-6.svg",
-    "title": "Analytics & Performance Tracking",
-    "description": "Monitor every campaign with real-time analytics and clear reporting, so you can see exactly what’s working."
+    "img": "/images/feature-3.jpg",
+    "title": "Conseil",
+    "description": "Nous prenons le temps de comprendre vos objectifs d’affaires afin de vous recommander les meilleures avenues technologiques."
   }
 ]

@@ -1,7 +1,8 @@
 // tailwind.config.js
 module.exports = {
   content: [
-    './src/**/*.{html,js,jsx,ts,tsx}', // Adjust the paths based on your project structure
+    './src/**/*.{html,js,jsx,ts,tsx}',
+    './src/partials/**/*.html',    // Adjust the paths based on your project structure
   ],
   theme: {
     extend: {

@@ -13,3 +13,6 @@
 @import './button';
 @import './navbar';
 @import './mobile-menu';
+
+/* Custom styles */
+@import './tailwind-config.css';

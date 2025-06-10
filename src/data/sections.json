@@ -2,15 +2,17 @@
   {
     "id": "hero",
     "partial": "section-hero",
-    "section-classes": "pt-16 lg:pt-32 bg-brand"
+    "section-classes": "pt-16 lg:pt-32 bg-brand-blue"
   },
   {
     "id": "about",
-    "partial": "section-about"
+    "partial": "section-about", 
+    "section-classes": "bg-brand-blue"
   },
   {
     "id": "features",
-    "partial": "section-features"
+    "partial": "section-features",
+    "section-classes": "bg-brand-blue"
   },
   {
     "id": "pricing",

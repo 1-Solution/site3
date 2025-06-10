@@ -1,26 +1,26 @@
 <div
-  class="fixed top-0 left-0 z-[40] shadow bg-gray-950 h-1 w-full animate-scroll-progress"
+  class="fixed top-0 left-0 z-[40] shadow bg-brand-orange h-1 w-full animate-scroll-progress"
 ></div>
 <header
-  class="border-b py-4 not-prose fixed inset-x-0 bg-white z-30"
+  class="py-4 not-prose fixed inset-x-0 bg-brand-blue z-30"
 >
   <div class="container flex justify-between items-center gap-20">
-    <div class="flex items-center gap-32 flex-grow">
+    <div class="flex items-center gap-75 flex-grow color-white">
       <a
         href="#"
-        class="w-10 grid transition-opacity hover:opacity-75 duration-300 text-gray-950"
+        class="w-10 grid transition-opacity hover:opacity-75 duration-300"
         aria-label="Home"
       >
         {{> logo }}
       </a>
-      <nav aria-label="Main navigation" class="hidden lg:flex">
-        <ul class="flex gap-12 items-center list-none m-0 py-0">
+      <nav aria-label="Main navigation" class="hidden lg:flex ">
+        <ul class="flex gap-12 items-center list-none m-0 py-0 text-white">          
           {{#each menu}} {{> header-navlink url=url label=label}} {{/each}}
         </ul>
       </nav>
     </div>
-    <a href="#contact" class="btn btn-sm hidden lg:flex" role="button"
-      >Let's Talk</a
+    <a href="#contact" class="btn btn-sm hidden lg:flex bg-brand-orange" role="button"
+      >Contactez-nous</a
     >
     <button
       class="cursor-pointer rounded-full bg-gray-100 text-gray-950 p-4 flex transition-colors duration-300 hover:bg-gray-200 lg:hidden"
