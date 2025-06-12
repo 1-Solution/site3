@@ -1,14 +1,14 @@
 [
   {
-    "label": "Services",
-    "url": "#services"
-  },
-  {
     "label": "À propos",
     "url": "#about"
   },
   {
-    "label": "Carrières",
-    "url": "#careers"
+    "label": "Services",
+    "url": "#features"
+  },
+  {
+    "label": "Partenaires",
+    "url": "#partners"
   }
 ]

@@ -15,6 +15,11 @@
     "section-classes": "bg-brand-blue"
   },
   {
+    "id": "partners",
+    "partial": "section-partners",
+    "section-classes": "partners-background"
+  },
+  {
     "id": "pricing",
     "partial": "section-pricing"
   },
@@ -22,10 +27,7 @@
     "id": "faq",
     "partial": "section-faq"
   },
-  {
-    "id": "testimonials",
-    "partial": "section-testimonials"
-  },
+
   {
     "id": "contact",
     "partial": "section-contact"

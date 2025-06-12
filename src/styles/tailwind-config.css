@@ -31,17 +31,3 @@
   --color-brand-blue: #0C2830;
   --color-brand-orange: #FF6500;
 }
-
-/* dark mode styling example - uncomment if you want to use dark mode */
-/* @media (prefers-color-scheme: dark) {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-800, currentColor);
-  }
-} */
-
-/* example of how to customise the typography plugin settings */
-
