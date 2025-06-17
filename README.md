@@ -167,6 +167,13 @@ This project is open source and licensed under the MIT License.
 
 ---
 
+## Image Resize
+Images were resized using :
+`https://imageresizer.com/resize/editor`
+
+
+---
+
 ## 💬 Contact Me
 
 You can find my website [here](https://www.pixelrocket.store) for more web development resources and tutorials.
