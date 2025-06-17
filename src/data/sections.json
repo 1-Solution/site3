@@ -20,12 +20,19 @@
     "section-classes": "partners-background"
   },
   {
-    "id": "pricing",
-    "partial": "section-pricing"
+    "id": "optimize",
+    "partial": "section-optimize",
+    "section-classes": "bg-brand-orange"
+  },
+  {
+    "id": "team",
+    "partial": "section-team",
+    "section-classes": "team-background"
   },
   {
     "id": "faq",
-    "partial": "section-faq"
+    "partial": "section-faq",
+    "section-classes": "bg-brand-beige"
   },
 
   {

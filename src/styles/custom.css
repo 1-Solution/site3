@@ -3,3 +3,14 @@
   background-size: cover;
   background-position: center;
 }
+.team-background {
+  background-color: var(--color-brand-beige);
+  background-image: url('/images/team-background.png');
+  background-size: cover;
+  background-position: center;
+  rotate: 180deg;
+}
+
+.offset-team article:nth-child(even) {
+  transform: translateY(75px);
+}

@@ -1,0 +1,36 @@
+<div class="text-center grid place-items-center gap-20 rotate-180 pb-25">
+  <div class="grid gap-12">
+    <h1 class="text-8xl not-prose font-bold leading-tight text-white">
+      Une équipe<br> humaine
+    </h1>
+    <p class="text-white">
+      Nous prenons le temps de vous rencontrer, vous écouter et d’analyser vos besoins.
+    </p>
+    <a href="#contact" class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mx-auto" role="button">Rejoignez
+      l'équipe</a>
+  </div>
+  <div class="grid gap-12 lg:grid-cols-4 offset-team">
+    {{#each @root.team}}
+    <article class="group flex flex-col gap-2 items-start text-left">
+      <div
+        class="relative w-auto h-full rounded-4xl overflow-hidden transition-transform duration-200 group-hover:scale-110">
+        <img src="{{this.img}}" alt="{{this.name}}" class="w-full h-full not-prose object-cover" />
+
+        <!-- Gradient + Text overlay -->
+        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 from-20% to-transparent p-4">
+          <p class="text-white text-lg not-prose font-bold">{{this.name}}</p>
+          <p class="text-white text-sm not-prose">{{this.title}}</p>
+        </div>
+
+        <!-- LinkedIn Icon (appears on hover) -->
+        {{#if this.linkedin}}
+        <a href="{{this.linkedin}}" target="_blank" rel="noopener noreferrer"
+          class="absolute bottom-8 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 color-white">
+          <img src="/images/icons8-linkedin.svg" alt="LinkedIn" class="w-10 h-10" />
+        </a>
+        {{/if}}
+      </div>
+    </article>
+    {{/each}}
+  </div>
+</div>
