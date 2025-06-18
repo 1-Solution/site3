@@ -6,7 +6,7 @@
   },
   {
     "id": "about",
-    "partial": "section-about", 
+    "partial": "section-about",
     "section-classes": "bg-brand-blue"
   },
   {
@@ -30,13 +30,13 @@
     "section-classes": "team-background"
   },
   {
-    "id": "faq",
-    "partial": "section-faq",
+    "id": "careers",
+    "partial": "section-careers",
     "section-classes": "bg-brand-beige"
   },
-
   {
     "id": "contact",
-    "partial": "section-contact"
+    "partial": "section-contact",
+    "section-classes": "contact-background"
   }
 ]

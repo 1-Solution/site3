@@ -1,0 +1,22 @@
+[
+  {
+    "img": "/images/feature-3.jpg",
+    "job_title": "Développeur Analyste"
+  },
+  {
+    "img": "/images/feature-3.jpg",
+    "job_title": "Développeur IaC"
+  },
+  {
+    "img": "/images/feature-3.jpg",
+    "job_title": "Développeur Front-End"
+  },
+  {
+    "img": "/images/feature-3.jpg",
+    "job_title": "Architecte Organique"
+  },
+  {
+    "img": "/images/feature-3.jpg",
+    "job_title": "Architecte Logiciel"
+  }
+]
