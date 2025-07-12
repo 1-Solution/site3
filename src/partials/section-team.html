@@ -1,14 +1,12 @@
 <div class="text-center grid place-items-center gap-20 rotate-180 pb-25">
   <div class="grid gap-12">
-    <h1 class="text-8xl not-prose font-bold leading-tight text-white">
-      Une équipe<br> humaine
+    <h1 data-i18n="team:title" class="text-8xl not-prose font-bold leading-tight text-white">
     </h1>
-    <p class="text-white">
-      Une équipe multidisciplinaire qui regroupe ses forces et qui s’engage à aider et supporter ses partenaires de
-      façon humaine.
+    <p data-i18n="team:description" class="text-white">
     </p>
-    <a href="#contact" class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mx-auto" role="button">Rejoignez
-      l'équipe</a>
+    <a data-i18n="team:join-us" href="#contact" class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mx-auto"
+      role="button">
+    </a>
   </div>
   <div class="grid gap-12 lg:grid-cols-4 offset-team">
     {{#each @root.team}}

@@ -1,22 +1,22 @@
 [
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Développeur Analyste"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Développeur IaC"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Développeur Front-End"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Architecte Organique"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Architecte Logiciel"
-  }
+    {
+        "img": "/images/feature-3.jpg",
+        "job-title-key": "analyst-dev"
+    },
+    {
+        "img": "/images/feature-3.jpg",
+        "job-title-key": "iac-dev"
+    },
+    {
+        "img": "/images/feature-3.jpg",
+        "job-title-key": "fe-dev"
+    },
+    {
+        "img": "/images/feature-3.jpg",
+        "job-title-key": "organic-architect"
+    },
+    {
+        "img": "/images/feature-3.jpg",
+        "job-title-key": "software-architect"
+    }
 ]

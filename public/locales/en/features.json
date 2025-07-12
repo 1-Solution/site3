@@ -1,0 +1,17 @@
+[
+  {
+    "img": "/images/feature-1.jpg",
+    "title": "Solution",
+    "description": "We design software solutions tailored to your processes to develop intuitive, scalable, and sustainable solutions based on your business objectives."
+  },
+  {
+    "img": "/images/feature-2.jpg",
+    "title": "Growth",
+    "description": "We update your software to improve its performance, usability, and security by including business logic."
+  },
+  {
+    "img": "/images/feature-3.jpg",
+    "title": "Consulting",
+    "description": "We take the time to understand your business objectives in order to recommend the best technological avenues."
+  }
+]

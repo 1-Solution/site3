@@ -1,0 +1,31 @@
+{
+  "title": "Une équipe <br>humaine",
+  "description": "Une équipe multidisciplinaire qui regroupe ses forces et qui s’engage à aider et supporter ses partenaires de façon humaine.",
+  "members": [
+    {
+      "img": "/images/IMG_4164.jpg",
+      "title": "Président et architecte organique",
+      "name": "Antoine Theriault-Richer",
+      "linkedin": "https://www.linkedin.com/in/antoine-thériault-richer-09202940/"
+    },
+    {
+      "img": "/images/IMG_4157.jpg",
+      "title": "Vice-président et architecte organique",
+      "name": "Bruno Laporte",
+      "linkedin": "https://www.linkedin.com/in/bruno-laporte-592380106/"
+    },
+    {
+      "img": "/images/IMG_4151.jpg",
+      "title": "Développeur analyste",
+      "name": "Jean-Christophe Viau",
+      "linkedin": "https://www.linkedin.com/in/jean-christophe-viau-b82a5a21b/"
+    },
+    {
+      "img": "/images/IMG_4180.jpg",
+      "title": "Développeur analyste, Ing.",
+      "name": "Simon Pepin",
+      "linkedin": "https://www.linkedin.com/in/simon-p-41663080/"
+    }
+  ],
+  "join-us": "Rejoignez l'équipe"
+}

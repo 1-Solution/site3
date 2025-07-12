@@ -1,12 +1,8 @@
 <div class="text-center grid gap-20 bg-brand-beige">
   <div class="flex flex-row gap-16 text-white">
-    <h1 class="text-8xl font-bold not-prose leading-tight text-left w-1/2">
-      Rejoignez<br />l'équipe
+    <h1 data-i18n="careers:title" class="text-8xl font-bold not-prose leading-tight text-left w-1/2">
     </h1>
-    <p class="max-w-md w-1/2">
-      Nous offrons un service de qualité grâce à une équipe humaine, expérimentée et ayant des compétences
-      complémentaires qui permettront de vous développer personnellement et professionnellement. Collaborez avec de
-      grandes organisations tout en profitant du confort et de la flexibilité d’une petite entreprise.
+    <p data-i18n="careers:description" class="max-w-md w-1/2">
     </p>
   </div>
   <div class="grid grid-cols-3 gap-6">
@@ -15,7 +11,7 @@
       <article class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200">
         <img src="/images/img-careers.png" alt="Feature icon"
           class="w-full aspect-[4/3] object-cover inline-block rounded-4xl" />
-        <h4 class="text-white not-prose pb-4">{{ job_title }}</h4>
+        <h4 class="text-white not-prose pb-4" data-i18n="careers:{{ job-title-key }}"></h4>
         <img src="/images/icon-arrow-2.svg" alt="Arrow icon" class="w-8 h-8 inline-block" />
       </article>
     </a>
@@ -24,7 +20,7 @@
       <article class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200">
         <img src="/images/img-perks.jpg" alt="Feature icon"
           class="w-full aspect-[4/3] object-cover inline-block rounded-4xl" />
-        <h4 class="text-white not-prose pb-4">Des conditions de travail avantageuses</h4>
+        <h4 data-i18n="careers:perks-title" class="text-white not-prose pb-4"></h4>
         <img src="/images/icon-arrow-2.svg" alt="Arrow icon" class="w-8 h-8 inline-block" />
       </article>
     </a>
