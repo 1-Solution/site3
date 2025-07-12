@@ -2,9 +2,9 @@
   "title": "Rejoignez <br>l'équipe",
   "description": "Nous offrons un service de qualité grâce à une équipe humaine, expérimentée et ayant des compétences complémentaires qui permettront de vous développer personnellement et professionnellement. Collaborez avec de grandes organisations tout en profitant du confort et de la flexibilité d’une petite entreprise.",
   "perks-title": "Des conditions de travail avantageuses",
-  "analyst-dev": "Développeur Analyste",
-  "iac-dev": "Développeur IaC",
-  "fe-dev": "Développeur Front-End",
-  "organic-architect": "Architecte Organique",
-  "software-architect": "Architecte Logiciel"
+  "job-1-title": "Développeur Analyste",
+  "job-2-title": "Développeur IaC",
+  "job-3-title": "Développeur Front-End",
+  "job-4-title": "Architecte Organique",
+  "job-5-title": "Architecte Logiciel"
 }

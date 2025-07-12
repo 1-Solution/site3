@@ -1,22 +1,10 @@
-[
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Analyst Developer"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Iac Developer"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Front-End Developer"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Organic Architect"
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "job_title": "Software Architect"
-  }
-]
+{
+  "title": "Join <br>the team",
+  "description": "We are always looking for talented individuals to join our team. If you are passionate about technology and want to make a difference, we would love to hear from you.",
+  "perks-title": "Favorable working conditions",
+  "job-1-title": "Analyst Developer",
+  "job-2-title": "Iac Developer",
+  "job-3-title": "Front-End Developer",
+  "job-4-title": "Organic Architect",
+  "job-5-title": "Software Architect"
+}

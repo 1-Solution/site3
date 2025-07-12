@@ -1,26 +1,13 @@
-[
-  {
-    "img": "/images/IMG_4164.jpg",
-    "title": "President and Organic Architect",
-    "name": "Antoine Theriault-Richer",
-    "linkedin": "https://www.linkedin.com/in/antoine-thériault-richer-09202940/"
-  },
-  {
-    "img": "/images/IMG_4157.jpg",
-    "title": "Vice President and Organic Architect",
-    "name": "Bruno Laporte",
-    "linkedin": "https://www.linkedin.com/in/bruno-laporte-592380106/"
-  },
-  {
-    "img": "/images/IMG_4151.jpg",
-    "title": "Analyst Developer",
-    "name": "Jean-Christophe Viau",
-    "linkedin": "https://www.linkedin.com/in/jean-christophe-viau-b82a5a21b/"
-  },
-  {
-    "img": "/images/IMG_4180.jpg",
-    "title": "Analyst Developer, P.Eng.",
-    "name": "Simon Pepin",
-    "linkedin": "https://www.linkedin.com/in/simon-p-41663080/"
-  }
-]
+{
+  "title": "A human <br>team",
+  "description": "A multidisciplinary team that combines its strengths and is committed to helping and supporting its partners in a human way.",
+  "team-1-title": "President and Organic Architect",
+  "team-1-name": "Antoine Theriault-Richer",
+  "team-2-title": "Vice President and Organic Architect",
+  "team-2-name": "Bruno Laporte",
+  "team-3-title": "Analyst Developer",
+  "team-3-name": "Jean-Christophe Viau",
+  "team-4-title": "Analyst Developer, P.Eng.",
+  "team-4-name": "Simon Pepin",
+  "join-us": "Join the team"
+}

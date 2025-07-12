@@ -1,0 +1,38 @@
+[
+  {
+    "quote-key": "partner-1-quote",
+    "name-key": "partner-1-name",
+    "company-key": "partner-1-company",
+    "logo": "/images/logo-icon-1.svg"
+  },
+  {
+    "quote-key": "partner-2-quote",
+    "name-key": "partner-2-name",
+    "company-key": "partner-2-company",
+    "logo": "/images/logo-icon-1.svg"
+  },
+  {
+    "quote-key": "partner-3-quote",
+    "name-key": "partner-3-name",
+    "company-key": "partner-3-company",
+    "logo": "/images/logo-icon-1.svg"
+  },
+  {
+    "quote-key": "partner-4-quote",
+    "name-key": "partner-4-name",
+    "company-key": "partner-4-company",
+    "logo": "/images/logo-icon-1.svg"
+  },
+  {
+    "quote-key": "partner-5-quote",
+    "name-key": "partner-5-name",
+    "company-key": "partner-5-company",
+    "logo": "/images/logo-icon-1.svg"
+  },
+  {
+    "quote-key": "partner-6-quote",
+    "name-key": "partner-6-name",
+    "company-key": "partner-6-company",
+    "logo": "/images/logo-icon-1.svg"
+  }
+]

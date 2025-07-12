@@ -7,11 +7,11 @@
     {{#each @root.partners}}
     <article
       class="w-2/5 shrink-0 flex flex-col gap-8 place-items-start text-left rounded-xl p-8 text-white border-t-2 border-r-2 border-white">
-      <p class="!m-0 text-2xl font-medium">"{{ quote }}"</p>
+      <p data-i18n="partners:{{ quote-key }}" class="!m-0 text-2xl font-medium">""</p>
       <div class="grid mt-auto">
         <img src="{{ logo }}" alt="" class="!mt-0 !mb-3 w-8" />
-        <p class="!m-0 font-bold">{{ name }}</p>
-        <p class="!m-0">{{ company }}</p>
+        <p data-i18n="partners:{{ name-key }}" class="!m-0 font-bold"></p>
+        <p data-i18n="partners:{{ company-key }}" class="!m-0"></p>
       </div>
     </article>
     {{/each}}

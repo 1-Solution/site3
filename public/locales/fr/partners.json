@@ -1,41 +1,21 @@
 {
   "title": "Nos <br>partenaires",
-  "partners": [
-    {
-      "quote": "Brightwave helped us find our voice and connect with our customers in a way we never could before.",
-      "name": "Chloe Matthews",
-      "company": "CEO, NovaTech",
-      "logo": "/images/logo-icon-1.svg"
-    },
-    {
-      "quote": "The creativity and attention to detail from Brightwave transformed our brand presence completely.",
-      "name": "Jamal Singh",
-      "company": "Marking Manager, UrbanNest",
-      "logo": "/images/logo-icon-1.svg"
-    },
-    {
-      "quote": "Every campaign feels fresh, authentic, and drives real results. They are truly part of our team.",
-      "name": "Emma Lewis",
-      "company": "Head of Sales, Riverstone",
-      "logo": "/images/logo-icon-1.svg"
-    },
-    {
-      "quote": "Working with Brightwave has been a game-changer for our growth. Their insights are spot-on every time.",
-      "name": "Daniel Ortega",
-      "company": "Owner, StellarPath",
-      "logo": "/images/logo-icon-1.svg"
-    },
-    {
-      "quote": "The team's passion, energy, and expertise shine through every project. We couldn't be happier.",
-      "name": "Priya Singh",
-      "company": "Marketing Manager, CodeWave",
-      "logo": "/images/logo-icon-1.svg"
-    },
-    {
-      "quote": "From strategy to execution, Brightwave made it easy to scale our marketing and grow our customer base.",
-      "name": "Lucas Meyer",
-      "company": "Head of Business, DataStream",
-      "logo": "/images/logo-icon-1.svg"
-    }
-  ]
+  "partner-1-quote": "Brightwave helped us find our voice and connect with our customers in a way we never could before.",
+  "partner-1-name": "Chloe Matthews",
+  "partner-1-company": "CEO, NovaTech",
+  "partner-2-quote": "The creativity and attention to detail from Brightwave transformed our brand presence completely.",
+  "partner-2-name": "Jamal Singh",
+  "partner-2-company": "Marking Manager, UrbanNest",
+  "partner-3-quote": "Every campaign feels fresh, authentic, and drives real results. They are truly part of our team.",
+  "partner-3-name": "Emma Lewis",
+  "partner-3-company": "Head of Sales, Riverstone",
+  "partner-4-quote": "Working with Brightwave has been a game-changer for our growth. Their insights are spot-on every time.",
+  "partner-4-name": "Daniel Ortega",
+  "partner-4-company": "Owner, StellarPath",
+  "partner-5-quote": "The team's passion, energy, and expertise shine through every project. We couldn't be happier.",
+  "partner-5-name": "Priya Singh",
+  "partner-5-company": "Marketing Manager, CodeWave",
+  "partner-6-quote": "From strategy to execution, Brightwave made it easy to scale our marketing and grow our customer base.",
+  "partner-6-name": "Lucas Meyer",
+  "partner-6-company": "Head of Business, DataStream"
 }

@@ -13,12 +13,12 @@
     <article class="group flex flex-col gap-2 items-start text-left">
       <div
         class="relative w-auto h-full rounded-4xl overflow-hidden transition-transform duration-200 group-hover:scale-110">
-        <img src="{{this.img}}" alt="{{this.name}}" class="w-full h-full not-prose object-cover" />
+        <img src="{{this.img}}" class="w-full h-full not-prose object-cover" />
 
         <!-- Gradient + Text overlay -->
         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 from-20% to-transparent p-4">
-          <p class="text-white text-lg not-prose font-bold">{{this.name}}</p>
-          <p class="text-white text-sm not-prose">{{this.title}}</p>
+          <p data-i18n="team:{{this.name-key}}" class="text-white text-lg not-prose font-bold"></p>
+          <p data-i18n="team:{{this.title-key}}" class="text-white text-sm not-prose"></p>
         </div>
 
         <!-- LinkedIn Icon (appears on hover) -->

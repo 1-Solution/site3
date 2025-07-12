@@ -1,4 +1,9 @@
 {
     "title": "Contactez-nous",
-    "description": "Laissez-nous vous aider à tirer le maximum de vos ressources. Avec 1-SOLUTION, vous aurez votre solution, pour optimiser et automatiser."
+    "description": "Laissez-nous vous aider à tirer le maximum de vos ressources. Avec 1-SOLUTION, vous aurez votre solution, pour optimiser et automatiser.",
+    "form-name": "Nom",
+    "form-email": "Email",
+    "form-subject": "Sujet",
+    "form-message": "Votre message",
+    "form-submit": "Envoyer"
 }

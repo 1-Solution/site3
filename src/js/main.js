@@ -8,12 +8,11 @@ i18next
   .use(Backend)
   .use(LanguageDetector)
   .init({
-    lng: 'fr', 
     fallbackLng: 'fr',
     supportedLngs: ['fr','en'],
     debug: true,
-    ns: ['about', 'hero', 'menu', 'features', 'optimize', 'partners', 'team', 'careers', 'logos', 'contact'],
-    defaultNS: 'hero',
+    ns: ['about', 'hero', 'header', 'features', 'optimize', 'partners', 'team', 'careers', 'contact', 'footer'],
+    defaultNS: 'about',
     interpolation: { escapeValue: false },
     backend: { loadPath: '/locales/{{lng}}/{{ns}}.json' },
   })
@@ -21,15 +20,10 @@ i18next
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.getAttribute('data-i18n')
       el.innerHTML = i18next.t(key)
-    })
-  })
+    });
 
-document.getElementById('lang-switcher')
-  .addEventListener('change', e => {
-    i18next.changeLanguage(e.target.value)
-      .then(() => {
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-          el.innerHTML = i18next.t(el.dataset.i18n)
-        })
-      })
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+      const key = el.getAttribute('data-i18n-placeholder');
+      el.setAttribute('placeholder', i18next.t(key));
+    });
   })

@@ -5,10 +5,10 @@
       <div class="grid grid-cols-12 sm:gap-8 gap-20 items-center">
         <div class="col-span-4 grid">
           <div class="inline-flex justify-between items-center">
-            <h2 class="text-5xl font-semibold not-prose text-white">{{ title }}</h2>
+            <h2 data-i18n="features:{{ title-key }}" class="text-5xl font-semibold not-prose text-white"></h2>
             <img src="/images/icon-arrow-1.svg" alt="Feature icon" class="w-16 h-16 not-prose display-inline" />
           </div>
-          <p class="!m-0 w-3/4 text-white">{{ description }}</p>
+          <p data-i18n="features:{{ description-key }}" class="!m-0 w-3/4 text-white"></p>
         </div>
         <div class="col-span-8">
           <img src="{{ img }}" alt="Solution section" class="w-full h-80 object-cover rounded-full" />

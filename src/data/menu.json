@@ -1,0 +1,18 @@
+[
+  {
+    "label-key": "label-services",
+    "url": "#about"
+  },
+  {
+    "label-key": "label-partners",
+    "url": "#partners"
+  },
+  {
+    "label-key": "label-team",
+    "url": "#team"
+  },
+  {
+    "label-key": "label-careers",
+    "url": "#careers"
+  }
+]

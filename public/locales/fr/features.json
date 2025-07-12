@@ -1,17 +1,8 @@
-[
-  {
-    "img": "/images/feature-1.jpg",
-    "title": "Solution",
-    "description": "Nous concevons des solutions logicielles adaptées à vos processus afin de développer des solutions intuitives, évolutives et durables en fonction de vos objectifs d’affaires."
-  },
-  {
-    "img": "/images/feature-2.jpg",
-    "title": "Croissance",
-    "description": "Nous réactualisons vos logiciels pour améliorer leur performance, leur convivialité et leur sécurité en incluant la logique d’affaires."
-  },
-  {
-    "img": "/images/feature-3.jpg",
-    "title": "Conseil",
-    "description": "Nous prenons le temps de comprendre vos objectifs d’affaires afin de vous recommander les meilleures avenues technologiques."
-  }
-]
+{
+  "features-1-title": "Solution",
+  "features-1-description": "Nous concevons des solutions logicielles adaptées à vos processus afin de développer des solutions intuitives, évolutives et durables en fonction de vos objectifs d’affaires.",
+  "features-2-title": "Croissance",
+  "features-2-description": "Nous réactualisons vos logiciels pour améliorer leur performance, leur convivialité et leur sécurité en incluant la logique d’affaires.",
+  "features-3-title": "Conseil",
+  "features-3-description": "Nous prenons le temps de comprendre vos objectifs d’affaires afin de vous recommander les meilleures avenues technologiques."
+}

@@ -10,17 +10,18 @@
       class="flex flex-col gap-4 w-1/2">
       <input type="text" id="name" name="name" required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        placeholder="Nom" />
+        data-i18n-placeholder="contact:form-name" />
       <input type="text" id="email" name="email" required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        placeholder="Email" />
+        data-i18n-placeholder="contact:form-email" />
       <input type="text" id="subject" name="subject" required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        placeholder="Sujet" />
+        data-i18n-placeholder="contact:form-subject" />
       <textarea id="message" name="message" required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        placeholder="Votre message" rows="4"></textarea>
-      <button type="submit" class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mt-4" role="button">Envoyer</button>
+        data-i18n-placeholder="contact:form-message" rows="4"></textarea>
+      <button data-i18n="contact:form-submit" type="submit" class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mt-4"
+        role="button"></button>
     </form>
   </div>
 </div>

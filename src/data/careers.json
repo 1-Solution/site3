@@ -1,22 +1,22 @@
 [
     {
         "img": "/images/feature-3.jpg",
-        "job-title-key": "analyst-dev"
+        "job-title-key": "job-1-title"
     },
     {
         "img": "/images/feature-3.jpg",
-        "job-title-key": "iac-dev"
+        "job-title-key": "job-2-title"
     },
     {
         "img": "/images/feature-3.jpg",
-        "job-title-key": "fe-dev"
+        "job-title-key": "job-3-title"
     },
     {
         "img": "/images/feature-3.jpg",
-        "job-title-key": "organic-architect"
+        "job-title-key": "job-4-title"
     },
     {
         "img": "/images/feature-3.jpg",
-        "job-title-key": "software-architect"
+        "job-title-key": "job-5-title"
     }
 ]
