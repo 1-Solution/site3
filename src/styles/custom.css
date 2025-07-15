@@ -16,7 +16,3 @@
   background-position: center;
   rotate: 180deg;
 }
-
-.offset-team article:nth-child(even) {
-  transform: translateY(75px);
-}

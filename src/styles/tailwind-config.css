@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
 
 /* default border color */
 @layer base {
@@ -33,4 +34,10 @@
   --color-brand-patate: #42B5C5;
   --color-brand-orange: #FF6500;
   --color-brand-beige: #C8BBAE;
+}
+
+@variant lg {
+  .offset-team article:nth-child(even) {
+    transform: translateY(75px);
+  }
 }
