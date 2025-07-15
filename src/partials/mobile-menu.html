@@ -1,15 +1,31 @@
 <dialog id="modal" aria-labelledby="modal-title" aria-describedby="modal-description" data-modal class="fixed z-[999]">
   <div class="modal-content bg-brand-blueL justify-between gap-20 p-12 sm:p-20 flex flex-col h-full overflow-y-auto">
-    <div class="flex items-center justify-between gap-4">
-      <a href="#" class="w-14 sm:w-20 flex flex-shrink-0 transition-opacity hover:opacity-75 duration-300"
-        aria-label="Home">
-        {{> logo }}
-      </a>
-      <button data-modal-close
-        class="text-gray-100 transition-colors duration-300 hover:text-gray-300 cursor-pointer z-10 flex modal-close">
-        <span class="sr-only">Close modal</span>
-        <span class="w-12">{{> icons/close }}</span>
-      </button>
+    <div>
+      <div class="flex items-center justify-between gap-4">
+        <a href="#" data-modal-close class="w-10 grid transition-opacity hover:opacity-75 duration-300"
+          aria-label="Home">
+          {{> logo }}
+        </a>
+        <button data-modal-close
+          class="text-gray-100 transition-colors duration-300 hover:text-gray-300 cursor-pointer z-10 flex modal-close">
+          <span class="sr-only">Close modal</span>
+          <span class="w-12">{{> icons/close }}</span>
+        </button>
+      </div>
+      <div class="mt-8">
+        <a data-i18n="header:label-language" href="#"
+          class="text-4xl font-bold transition-colors duration-300 hover:text-white/75 text-white no-underline"
+          onclick="switchLanguage(event)"></a>
+        <script>
+          function switchLanguage(event) {
+            event.preventDefault();
+            const currentLang = localStorage.getItem('i18nextLng') || 'fr';
+            const newLang = currentLang === 'fr' ? 'en' : 'fr';
+            localStorage.setItem('i18nextLng', newLang);
+            location.reload();
+          }
+        </script>
+      </div>
     </div>
     <nav class="bg-brand-blueL text-white" data-modal-menu>
       <ul class="not-prose grid gap-10">

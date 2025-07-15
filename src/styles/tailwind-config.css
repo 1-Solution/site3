@@ -21,7 +21,7 @@
 
 /* You may want to tweak this, this gives top and bottom padding to each section container */
 .container:not(header .container) {
-  @apply py-24;
+  @apply py-16;
 }
 
 @theme {
