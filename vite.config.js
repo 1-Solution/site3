@@ -64,7 +64,7 @@ export default {
       // See about page (which does not exist) commented out below
       input: {
         index: path.resolve(__dirname, 'src/pages/index.html'),
-        // about: path.resolve(__dirname, 'src/pages/about.html'),
+        contact: path.resolve(__dirname, 'src/pages/contact.html'),
       },
     },
   },

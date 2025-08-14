@@ -1,6 +1,9 @@
 {
-    "title": "Contact us",
-    "description": "Let us help you maximize your resources. With 1-SOLUTION, you will have your solution to optimize and automate.",
+    "hero": "Contact us",
+    "title": "Let us help you",
+    "description": "A question, an idea, or just want to chat? <br/>Write to us, we love to discuss!",
+    "description-email": "info@1-solution.ca",
+    "description-adresse": "6300 Av. Auteuil - Suite #505 <br/>Brossard, Québec, Canada",
     "form-name": "Name",
     "form-email": "Email",
     "form-subject": "Subject",

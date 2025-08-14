@@ -1,8 +1,8 @@
 <div class="fixed top-0 left-0 z-[40] shadow bg-brand-orange h-1 w-full animate-scroll-progress"></div>
-<header class="py-4 not-prose fixed inset-x-0 bg-brand-blue z-30">
+<header class="py-4 not-prose {{ class }}">
   <div class="container flex justify-between items-center gap-20">
     <div class="flex items-center gap-75 flex-grow color-white">
-      <a href="#" class="w-10 grid transition-opacity hover:opacity-75 duration-300" aria-label="Home">
+      <a href="/" class="w-10 grid transition-opacity hover:opacity-75 duration-300" aria-label="Home">
         {{> logo }}
       </a>
       <nav aria-label="Main navigation" class="hidden lg:flex w-full">
@@ -23,7 +23,7 @@
         </ul>
       </nav>
     </div>
-    <a href="#contact" class="btn btn-sm hidden lg:flex bg-brand-orange" role="button">
+    <a href="/contact" class="btn btn-sm hidden lg:flex bg-brand-orange" role="button">
       <span data-i18n="header:contact-us"></span>
     </a>
     <button

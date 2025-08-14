@@ -35,8 +35,8 @@
     "section-classes": "bg-brand-beige"
   },
   {
-    "id": "contact",
-    "partial": "section-contact",
-    "section-classes": "contact-background"
+    "id": "connect",
+    "partial": "section-connect",
+    "section-classes": "connect-background"
   }
 ]

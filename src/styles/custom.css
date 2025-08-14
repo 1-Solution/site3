@@ -1,17 +1,17 @@
 .partners-background {
-  background-image: url('/images/bg-partners.png');
+  background-image: url('/images/bg-fade-2.png');
   background-size: cover;
   background-position: center;
 }
-.contact-background {
-    background-color: var(--color-brand-blue);
-  background-image: url('/images/temp.png');
+.contact-background, .connect-background {
+  background-color: var(--color-brand-blue);
+  background-image: url('/images/bg-fade-1.png');
   background-size: cover;
   background-position: center;
 }
 .team-background {
   background-color: var(--color-brand-beige);
-  background-image: url('/images/bg-team.png');
+  background-image: url('/images/bg-fade-3.png');
   background-size: cover;
   background-position: center;
   rotate: 180deg;
