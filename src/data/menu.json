@@ -5,14 +5,14 @@
   },
   {
     "label-key": "label-partners",
-    "url": "#partners"
+    "url": "/#partners"
   },
   {
     "label-key": "label-team",
-    "url": "#team"
+    "url": "/#team"
   },
   {
     "label-key": "label-careers",
-    "url": "#careers"
+    "url": "/#careers"
   }
 ]

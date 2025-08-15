@@ -1,0 +1,17 @@
+[
+  {
+    "id": "careers",
+    "partial": "section-careers",
+    "section-classes": "bg-brand-beige"
+  },
+  {
+    "id": "perks",
+    "partial": "section-perks",
+    "section-classes": "bg-brand-blue"
+  },
+  {
+    "id": "connect",
+    "partial": "section-connect",
+    "section-classes": "connect-background"
+  }
+]
