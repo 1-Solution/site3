@@ -65,7 +65,7 @@ export default {
       input: {
         index: path.resolve(__dirname, 'src/pages/index.html'),
         contact: path.resolve(__dirname, 'src/pages/contact.html'),
-        team: path.resolve(__dirname, 'src/pages/team.html'),
+        careers: path.resolve(__dirname, 'src/pages/careers.html'),
       },
     },
   },

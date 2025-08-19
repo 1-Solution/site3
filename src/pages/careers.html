@@ -7,12 +7,12 @@
 </head>
 
 <body class="prose prose-gray max-w-none text-lg">
-    <section class="team-background-2">
+    <section class="careers-background">
         {{> header class="bg-brand-transparent" }}
-        {{> hero-title page="team" }}
+        {{> hero-title page="careers" }}
     </section>
     <main>
-        {{#each sections-team}}
+        {{#each sections-careers}}
         {{#> section-wrapper}}
         {{> (lookup . "partial") }}
         {{/section-wrapper}}
