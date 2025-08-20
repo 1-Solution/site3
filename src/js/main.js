@@ -11,7 +11,7 @@ i18next
     fallbackLng: 'fr',
     supportedLngs: ['fr','en'],
     debug: true,
-    ns: ['about', 'hero', 'header', 'features', 'optimize', 'partners', 'perks', 'team', 'careers', 'connect', 'contact', 'footer'],
+    ns: ['about', 'hero', 'header', 'services', 'optimize', 'partners', 'values', 'team', 'careers', 'connect', 'contact', 'footer'],
     defaultNS: 'about',
     interpolation: { escapeValue: false },
     backend: { loadPath: '/locales/{{lng}}/{{ns}}.json' },

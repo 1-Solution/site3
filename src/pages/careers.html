@@ -2,14 +2,16 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
-    {{> head title="Contact" }}
+    {{> head title="Careers" }}
     <script src="https://unpkg.com/i18next@23.4.6/dist/umd/i18next.min.js"></script>
 </head>
 
 <body class="prose prose-gray max-w-none text-lg">
     <section class="careers-background">
         {{> header class="bg-brand-transparent" }}
-        {{> hero-title page="careers" }}
+        <div class="container">
+            {{> hero-title page="careers" }}
+        </div>
     </section>
     <main>
         {{#each sections-careers}}

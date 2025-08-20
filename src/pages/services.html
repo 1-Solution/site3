@@ -7,14 +7,17 @@
 </head>
 
 <body class="prose prose-gray max-w-none text-lg">
-    <section class="contact-background">
-        {{> header class="bg-brand-transparent" }}
+    <section class="bg-brand-blue">
+        {{> header class="bg-brand-blue" }}
         <div class="container">
-            {{> hero-title page="contact" }}
+            {{> hero-title page="services" }}
+            <div class="justify-between items-center">
+                <img src="/images/img-hero-services.png" alt="" class="w-full not-prose rounded-4xl" />
+            </div>
         </div>
     </section>
     <main>
-        {{#each sections-contact}}
+        {{#each sections-services}}
         {{#> section-wrapper}}
         {{> (lookup . "partial") }}
         {{/section-wrapper}}

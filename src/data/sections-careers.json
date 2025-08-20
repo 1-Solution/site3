@@ -5,8 +5,8 @@
     "section-classes": "bg-brand-beige"
   },
   {
-    "id": "perks",
-    "partial": "section-perks",
+    "id": "values",
+    "partial": "section-values",
     "section-classes": "bg-brand-blue"
   },
   {

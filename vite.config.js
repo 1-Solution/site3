@@ -39,6 +39,9 @@ export default {
     tailwindcss(),
     handlebars({
       // This is the directory where your partials are located
+      helpers: {
+        eq: (a, b) => a === b
+      },
       partialDirectory: path.resolve(__dirname, 'src/partials'),
       context: loadData(),
       reloadOnPartialChange: true,
@@ -66,6 +69,7 @@ export default {
         index: path.resolve(__dirname, 'src/pages/index.html'),
         contact: path.resolve(__dirname, 'src/pages/contact.html'),
         careers: path.resolve(__dirname, 'src/pages/careers.html'),
+        services: path.resolve(__dirname, 'src/pages/services.html'),
       },
     },
   },

@@ -1,14 +1,14 @@
-<div class="text-center  grid place-items-center gap-20">
-  <div class="grid grid-cols-1 gap-16">
-    {{#each @root.features}}
+<div class="text-center  grid place-items-center gap-20 bg-brand-orange">
+  <div class=" grid grid-cols-1 gap-16">
+    {{#each @root.services}}
     <article class="flex gap-6 text-left">
       <div class="lg:grid lg:grid-cols-12 sm:gap-8 gap-20 items-center">
         <div class="col-span-4 grid">
           <div class="inline-flex justify-between items-center">
-            <h2 data-i18n="features:{{ title-key }}" class="text-3xl font-semibold not-prose text-white"></h2>
+            <h2 data-i18n="services:{{ title-key }}" class="text-3xl font-semibold not-prose text-white"></h2>
             <img src="/images/icon-arrow-1.svg" alt="Feature icon" class="w-16 h-16 not-prose display-inline" />
           </div>
-          <p data-i18n="features:{{ description-key }}" class="!m-0 w-3/4 text-white"></p>
+          <p data-i18n="services:{{ description-key }}" class="!m-0 w-3/4 text-white"></p>
         </div>
         <div class="col-span-8">
           <img src="{{ img }}" alt="Solution section" class="w-full h-80 object-cover rounded-4xl md:rounded-full" />
