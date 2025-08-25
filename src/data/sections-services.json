@@ -5,6 +5,11 @@
     "section-classes": "bg-brand-blue"
   },
   {
+    "id": "services-content",
+    "partial": "section-services-content-horizontal",
+    "section-classes": "bg-brand-blue"
+  },
+  {
     "id": "values",
     "partial": "section-values",
     "section-classes": "bg-brand-blue",

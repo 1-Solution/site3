@@ -10,6 +10,11 @@
     "section-classes": "bg-brand-blue"
   },
   {
+    "id": "services-content",
+    "partial": "section-services-content-vertical",
+    "section-classes": "bg-brand-blue"
+  },
+  {
     "id": "partners",
     "partial": "section-partners",
     "section-classes": "partners-background"

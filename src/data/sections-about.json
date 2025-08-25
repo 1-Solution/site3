@@ -1,0 +1,17 @@
+[
+  {
+    "id": "focus",
+    "partial": "section-focus",
+    "section-classes": "bg-brand-beige"
+  },
+  {
+    "id": "recrute",
+    "partial": "section-recrute",
+    "section-classes": "bg-brand-beige"
+  },
+  {
+    "id": "connect",
+    "partial": "section-connect",
+    "section-classes": "connect-background"
+  }
+]
