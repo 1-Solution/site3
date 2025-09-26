@@ -1,181 +1,227 @@
-# HTML + Tailwind Landing Page Boilerplate
+# Portfolio One - Multilingual Business Website
 
-This is a flexible and modern HTML boilerplate for single-page websites. It uses **TailwindCSS v4**, **Vite** as the build tool, and **Handlebars** for templating. It’s designed to power the landing page tutorials on my YouTube channel — and it’s perfect for developers looking to build fast, customisable, static websites with dynamic structure.
+A modern, responsive business website built with Vite, Handlebars, and Tailwind CSS, featuring full internationalization support and a component-based architecture.
 
-## 🚀 Features
+## 📋 TODO
 
-- ⚡ Built with Vite for super-fast development
-- 🎨 TailwindCSS v4 for styling
-- 🯙 Handlebars for templating with support for partials
-- 📂 Dynamic content sections driven by JSON data
-- 📨 Contact form powered by Formspree
-- 🔁 Live reload on changes (including partials)
+### 🚨 High Priority
+- [ ] Fix form submissions with powerautomate pipeline
+- [ ] Add form to sumbit cvs
+- [ ] Replace placeholders with actual images
+- [ ] Add missing section with random images
 
----
+## ✨ Features
 
-## App Preview
+- **🌍 Multilingual Support** - Full internationalization with French and English
+- **📱 Responsive Design** - Mobile-first approach with Tailwind CSS
+- **🧩 Component-Based Architecture** - Modular partials and reusable components
+- **⚡ Fast Development** - Vite for lightning-fast builds and hot reload
+- **📝 Contact Forms** - Netlify-ready form handling
+- **🎨 Custom Styling** - Tailwind CSS with custom brand colors
+- **📄 Multi-Page Support** - Individual pages for different sections
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-brightgreen?style=for-the-badge)](https://html-tailwind-landing-boilerplate.vercel.app/)
-
----
-
-## 📦 Installation & Usage
+## 🚀 Quick Start
 
 ### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-Make sure you have the following installed:
+### Installation
 
-- [Node.js](https://nodejs.org/) (v20 or higher)
-- [npm](https://www.npmjs.com/)
+```bash
+# Clone the repository
+git clone [your-repo-url]
+cd site3
 
-### Getting Started
+# Install dependencies
+npm install
 
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/PixelRocket-Shop/youtube-html-tailwind-landing-boilerplate.git
-   cd youtube-html-tailwind-landing-boilerplate
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the Development Server**
-
-   ```bash
-   npm run dev
-   ```
-
-   Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-4. **Build for Production**
-
-   ```bash
-   npm run build
-   ```
-
-   Output files will be available in the `dist` directory.
-
-5. **Preview the Production Build**
-
-   ```bash
-   npm run preview
-   ```
-
----
-
-## 🯙️ Dynamic Sections via JSON
-
-The homepage layout is dynamically generated from a JSON file located at:
-
-```
-src/data/sections.json
+# Start development server
+npm run dev
 ```
 
-Each object in this file represents a page section and includes:
+The site will be available at `http://localhost:5173`
 
-- An `id`
-- A `partial` (the name of the Handlebars partial to use)
-- Optional `section-classes` for custom styling
+### Build for Production
 
-**Example:**
+```bash
+# Build the project
+npm run build
 
-```json
-[
-  {
-    "id": "hero",
-    "partial": "section-hero",
-    "section-classes": "pt-16 lg:pt-32"
-  },
-  {
-    "id": "about",
-    "partial": "section-about"
-  },
-  {
-    "id": "features",
-    "partial": "section-features"
-  }
-]
+# Preview the production build
+npm run preview
 ```
 
-This is rendered in your `index.html` like so:
+## 📁 Project Structure
 
-```handlebars
-<main>
-  {{#each sections}}
-    {{#> section-wrapper}}
-      {{> (lookup . "partial") }}
-    {{/section-wrapper}}
-  {{/each}}
-</main>
+```
+src/
+├── data/              # JSON data files for content
+│   ├── careers.json
+│   ├── menu.json
+│   ├── sections-*.json
+│   └── ...
+├── js/                # JavaScript modules
+│   ├── main.js        # Main entry point
+│   ├── contact.js     # Contact form handling
+│   └── mobile-menu.js # Mobile navigation
+├── pages/             # HTML page templates
+│   ├── index.html
+│   ├── about.html
+│   ├── careers.html
+│   ├── contact.html
+│   └── services.html
+├── partials/          # Reusable HTML components
+│   ├── header.html
+│   ├── footer.html
+│   ├── section-*.html
+│   └── icons/
+└── styles/            # CSS files
+    ├── main.css
+    ├── custom.css
+    └── ...
+
+public/
+├── images/            # Static images
+├── locales/           # Translation files
+│   ├── en/           # English translations
+│   └── fr/           # French translations
+└── content/          # Static content files
 ```
 
-To add, remove, or reorder sections, simply update the `sections.json` file.
+## 🛠️ Development
 
----
+### Available Scripts
 
-## 📨 Contact Form (Formspree)
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run format` - Format code with Prettier
 
-This project includes a ready-to-go contact form using [Formspree](https://formspree.io/).
+### Adding New Pages
 
-You **must update** the form `action` attribute with your own Formspree endpoint URL for the form to work correctly.
+1. Create a new HTML file in `src/pages/`
+2. Add the page to `vite.config.js` in the `rollupOptions.input` object
+3. Create corresponding data files in `src/data/` if needed
+4. Update navigation in `src/data/menu.json`
 
-**Example:**
+Example:
+```javascript
+// vite.config.js
+input: {
+  // existing pages...
+  newpage: path.resolve(__dirname, 'src/pages/newpage.html'),
+}
+```
+
+### Creating New Sections
+
+1. Create a new partial in `src/partials/section-[name].html`
+2. Add section data to appropriate `src/data/sections-*.json` file
+3. Add translations to `public/locales/en/` and `public/locales/fr/`
+
+### Internationalization
+
+The project uses i18next for translations:
+
+- **Translation files**: `public/locales/{lang}/{namespace}.json`
+- **Usage in HTML**: `data-i18n="namespace:key"`
+- **Placeholders**: `data-i18n-placeholder="namespace:key"`
+
+Example:
+```html
+<h1 data-i18n="hero:title"></h1>
+<input data-i18n-placeholder="contact:form-name" />
+```
+
+## 🎨 Styling
+
+### Tailwind Configuration
+
+Custom brand colors are defined in `tailwind.config.js`:
+- `brand-blue`: #0C2830
+- `brand-orange`: #42B5C5
+
+### CSS Structure
+
+- `main.css` - Main Tailwind imports and base styles
+- `custom.css` - Custom component styles
+- `animations.css` - Animation definitions
+- `button.css` - Button component styles
+- `mobile-menu.css` - Mobile navigation styles
+- `navbar.css` - Navigation styles
+
+## 📝 Contact Forms
+
+Forms are configured for Netlify deployment with the `netlify` attribute:
 
 ```html
-<form
-  action="https://formspree.io/f/your-form-id"
-  method="POST"
-  id="contact-form"
-  class="grid gap-x-6 gap-y-8 lg:grid-cols-2 w-full md:w-md lg:w-lg"
->
-  <!-- form fields here -->
+<form name="contact" netlify>
+  <!-- form fields -->
 </form>
 ```
 
-**Setup:**
+**Note**: Forms only work when deployed to Netlify. For local development, form submissions will result in 404 errors.
 
-- Sign up at [Formspree](https://formspree.io/)
-- Create a new form
-- Replace the `action` URL with your new Formspree endpoint
+## 🌍 Language Support
 
-Form submissions are handled using a standalone JavaScript file which displays a confirmation message without reloading the page.
+Currently supports:
+- **French (fr)** - Default language
+- **English (en)**
 
----
+Languages are auto-detected based on browser settings, with French as fallback.
 
-## 🛠️ Troubleshooting
+## 🚀 Deployment
 
-### Hot Module Reload (HMR) Not Working?
+### Netlify (Recommended)
 
-If changes stop appearing automatically in the browser:
+1. Connect your repository to Netlify
+2. Build settings:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+3. Forms will be automatically handled by Netlify
 
-1. Stop the development server.
-2. Restart the server:
+### Manual Deployment
 
-   ```bash
-   npm run dev
-   ```
+Build the project and upload the `dist` folder to your web server:
 
----
+```bash
+npm run build
+# Upload dist/ folder contents
+```
+
+## 🔧 Configuration
+
+### Vite Configuration
+
+Key features enabled in `vite.config.js`:
+- Handlebars templating with partials support
+- Tailwind CSS integration
+- Hot reload for partials changes
+- Multi-page build configuration
+- Automatic data loading from JSON files
+
+### Data-Driven Content
+
+Content is managed through JSON files in `src/data/`:
+- `sections-*.json` - Define which sections appear on each page
+- `menu.json` - Navigation structure
+- `careers.json`, `team.json`, etc. - Page-specific content
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Make your changes
+4. Format code: `npm run format`
+5. Commit changes: `git commit -m 'Add feature'`
+6. Push to branch: `git push origin feature-name`
+7. Open a pull request
 
 ## 📄 License
 
-This project is open source and licensed under the MIT License.
+ISC License - see package.json for details.
 
----
+## 🆘 Support
 
-## Image Resize
-Images were resized using :
-`https://imageresizer.com/resize/editor`
-
-
----
-
-## 💬 Contact Me
-
-You can find my website [here](https://www.pixelrocket.store) for more web development resources and tutorials.
-
-If you have any questions, feel free to email me at [support@pixelrocket.store](mailto:support@pixelrocket.store).
+For questions or issues, please contact info@1-solution.ca or open an issue in the repository.
