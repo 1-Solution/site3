@@ -3,18 +3,21 @@
     "img": "/images/feature-1.jpg",
     "img-alt": "/images/feature-6.png",
     "title-key": "services-1-title",
-    "description-key": "services-1-description"
+    "description-key": "services-1-description",
+    "description-key-alt": "services-1-description-alt"
   },
   {
     "img": "/images/feature-2.jpg",
     "img-alt": "/images/feature-5.png",
     "title-key": "services-2-title",
-    "description-key": "services-2-description"
+    "description-key": "services-2-description",
+    "description-key-alt": "services-2-description-alt"
   },
   {
     "img": "/images/feature-3.jpg",
     "img-alt": "/images/feature-4.png",
     "title-key": "services-3-title",
-    "description-key": "services-3-description"
+    "description-key": "services-3-description",
+    "description-key-alt": "services-3-description-alt"
   }
 ]

@@ -1,12 +1,15 @@
 {
-  "hero": "Optimizez vos </br>outils numériques",
+  "hero": "Le digital à <br>l'échelle humaine",
   "title": "Nos <br>services",
-  "description": "Nous maximisons vos outils de gestion pour développer une automatisation bonifiée de vos processus de travail afin de développer la solution adéquate qui vous permettra d’optimiser vos outils et applications numériques.",
+  "description": "Notre approche combine résolution de problèmes et agilité. Nous ne sommes pas simplement une petite équipe polyvalente : nous plaçons l’humain au cœur de chaque projet. En tant que consultants et développeurs, nous travaillons en collaboration avec vous pour trouver la solution qui répond à votre réalité.",
   "learn-more": "En savoir plus",
   "services-1-title": "Solution",
   "services-1-description": "Nous concevons des solutions logicielles adaptées à vos processus afin de développer des solutions intuitives, évolutives et durables en fonction de vos objectifs d’affaires.",
+  "services-1-description-alt": "Nous concevons des logiciels qui s’adaptent à vos processus pour vous aider à atteindre vos objectifs d’affaires. Notre approche privilégie des solutions intuitives, évolutives et durables. En tant que développeurs, nous créons des outils qui simplifient votre quotidien et maximisent le potentiel de vos applications numériques.",
   "services-2-title": "Croissance",
   "services-2-description": "Nous réactualisons vos logiciels pour améliorer leur performance, leur convivialité et leur sécurité en incluant la logique d’affaires.",
+  "services-2-description-alt": "Nous faisons évoluer vos logiciels pour améliorer performance, convivialité et sécurité, tout en intégrant votre logique d’affaires. Toujours en mode résolution de problèmes, nous appliquons une méthodologie rigoureuse pour mettre à jour vos systèmes et assurer une efficacité durable.",
   "services-3-title": "Conseil",
-  "services-3-description": "Nous prenons le temps de comprendre vos objectifs d’affaires afin de vous recommander les meilleures avenues technologiques."
+  "services-3-description": "Nous prenons le temps de comprendre vos objectifs d’affaires afin de vous recommander les meilleures avenues technologiques.",
+  "services-3-description-alt": "Nous agissons comme partenaires de confiance. Nous prenons le temps de comprendre vos objectifs et de vous proposer les solutions technologiques les plus adaptées. En analysant vos outils existants, nous vous guidons pour optimiser vos processus. Notre approche collaborative et humaine place vos besoins au cœur de chaque décision."
 }

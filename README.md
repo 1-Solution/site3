@@ -5,7 +5,7 @@ A modern, responsive business website built with Vite, Handlebars, and Tailwind 
 ## 📋 TODO
 
 ### 🚨 High Priority
-- [ ] Fix form submissions with powerautomate pipeline
+- [ ] Fix form submissions with powerautomate pipeline => done when migrating to new netlify
 - [ ] Add form to sumbit cvs
 - [ ] Replace placeholders with actual images
 - [ ] Add missing section with random images
@@ -67,7 +67,6 @@ src/
 │   └── mobile-menu.js # Mobile navigation
 ├── pages/             # HTML page templates
 │   ├── index.html
-│   ├── about.html
 │   ├── careers.html
 │   ├── contact.html
 │   └── services.html

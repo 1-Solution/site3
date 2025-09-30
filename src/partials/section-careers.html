@@ -5,18 +5,17 @@
     <p data-i18n="careers:description" class="max-w-md lg:w-1/2">
     </p>
   </div>
-  <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6">
+  <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 place-items-center">
     {{#each @root.careers}}
-    <a href="/careers#career1" class="block no-underline">
+    <a href="/contact" class="block no-underline">
       <article class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200">
-        <img src="/images/img-careers.png" alt="Feature icon"
-          class="w-full aspect-[4/3] object-cover inline-block rounded-4xl" />
+        <img src="{{ img }}" alt="Feature icon" class="w-full aspect-[4/3] object-cover inline-block rounded-4xl" />
         <h4 class="text-white not-prose pb-4" data-i18n="careers:{{ job-title-key }}"></h4>
         <img src="/images/icon-arrow-2.svg" alt="Arrow icon" class="w-8 h-8 inline-block" />
       </article>
     </a>
     {{/each}}
-    <a href="/your-link-here" class="block no-underline">
+    <a href="/contact" class="block no-underline">
       <article class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200">
         <img src="/images/img-perks.jpg" alt="Feature icon"
           class="w-full aspect-[4/3] object-cover inline-block rounded-4xl" />

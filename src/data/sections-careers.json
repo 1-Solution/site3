@@ -1,12 +1,17 @@
 [
   {
+    "id": "focus",
+    "partial": "section-focus",
+    "section-classes": "bg-brand-beige"
+  },
+  {
     "id": "careers",
     "partial": "section-careers",
     "section-classes": "bg-brand-beige"
   },
   {
-    "id": "values",
-    "partial": "section-values",
+    "id": "work",
+    "partial": "section-work",
     "section-classes": "bg-brand-blue"
   },
   {

@@ -2,25 +2,21 @@
   {
     "img": "/images/IMG_4164.jpg",
     "title-key": "team-1-title",
-    "name-key": "team-1-name",
-    "linkedin": "https://www.linkedin.com/in/antoine-thériault-richer-09202940/"
+    "name-key": "team-1-name"
   },
   {
     "img": "/images/IMG_4157.jpg",
     "title-key": "team-2-title",
-    "name-key": "team-2-name",
-    "linkedin": "https://www.linkedin.com/in/bruno-laporte-592380106/"
+    "name-key": "team-2-name"
   },
   {
     "img": "/images/IMG_4151.jpg",
     "title-key": "team-3-title",
-    "name-key": "team-3-name",
-    "linkedin": "https://www.linkedin.com/in/jean-christophe-viau-b82a5a21b/"
+    "name-key": "team-3-name"
   },
   {
     "img": "/images/IMG_4180.jpg",
     "title-key": "team-4-title",
-    "name-key": "team-4-name",
-    "linkedin": "https://www.linkedin.com/in/simon-p-41663080/"
+    "name-key": "team-4-name"
   }
 ]

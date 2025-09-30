@@ -20,14 +20,6 @@
           <p data-i18n="team:{{this.name-key}}" class="text-white text-lg not-prose font-bold"></p>
           <p data-i18n="team:{{this.title-key}}" class="text-white text-sm not-prose"></p>
         </div>
-
-        <!-- LinkedIn Icon (appears on hover) -->
-        {{#if this.linkedin}}
-        <a href="{{this.linkedin}}" target="_blank" rel="noopener noreferrer"
-          class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 color-white">
-          <img src="/images/icon-linkedin.svg" alt="LinkedIn" class="w-10 h-10" />
-        </a>
-        {{/if}}
       </div>
     </article>
     {{/each}}

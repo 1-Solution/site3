@@ -1,12 +1,15 @@
 {
-  "hero": "Optimize your digital tools",
+  "hero": "Digital at <br>a human scale",
   "title": "Our <br>services",
-  "description": "We maximize your management tools to develop enhanced automation of your work processes, creating the right solution to optimize your digital tools and applications.",
+  "description": "Our approach combines problem-solving and agility. We are not simply a small versatile team: we place humans at the heart of each project. As consultants and developers, we work collaboratively with you to find the solution that meets your reality.",
   "learn-more": "Learn more",
   "services-1-title": "Solution",
   "services-1-description": "We design software solutions tailored to your processes to develop intuitive, scalable, and sustainable solutions based on your business objectives.",
+  "services-1-description-alt": "We design software that adapts to your processes to help you achieve your business objectives. Our approach prioritizes intuitive, scalable, and sustainable solutions. As developers, we create tools that simplify your daily tasks and maximize the potential of your digital applications.",
   "services-2-title": "Growth",
   "services-2-description": "We update your software to improve its performance, usability, and security by including business logic.",
+  "services-2-description-alt": "We evolve your software to improve performance, usability, and security while integrating your business logic. Always in problem-solving mode, we apply a rigorous methodology to update your systems and ensure sustainable efficiency.",
   "services-3-title": "Consulting",
-  "services-3-description": "We take the time to understand your business objectives in order to recommend the best technological avenues."
+  "services-3-description": "We take the time to understand your business objectives in order to recommend the best technological avenues.",
+  "services-3-description-alt": "We act as trusted partners. We take the time to understand your goals and propose the most suitable technological solutions. By analyzing your existing tools, we guide you in optimizing your processes. Our collaborative and human approach places your needs at the heart of every decision."
 }

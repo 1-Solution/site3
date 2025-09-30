@@ -16,13 +16,8 @@
     "layout": "horizontal"
   },
   {
-    "id": "partners",
-    "partial": "section-partners",
-    "section-classes": "partners-background"
-  },
-  {
-    "id": "optimize",
-    "partial": "section-optimize",
+    "id": "discuss",
+    "partial": "section-discuss",
     "section-classes": "bg-brand-orange"
   },
   {
