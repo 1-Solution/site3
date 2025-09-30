@@ -15,6 +15,11 @@
     "section-classes": "bg-brand-blue"
   },
   {
+    "id": "cv",
+    "partial": "section-cv",
+    "section-classes": "bg-brand-orange"
+  },
+  {
     "id": "connect",
     "partial": "section-connect",
     "section-classes": "connect-background"

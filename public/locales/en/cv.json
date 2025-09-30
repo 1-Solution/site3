@@ -1,0 +1,12 @@
+{
+    "title": "Send us your Resume",
+    "description": "We are always looking for new talent. If you would like to be part of our team, send us your resume and we will contact you if an opportunity matches your profile.",
+    "description-email": "info@1-solution.ca",
+    "description-adresse": "6300 Auteuil Ave. - Suite #505 <br/>Brossard, Quebec, Canada",
+    "form-name": "Name",
+    "form-email": "Email",
+    "form-subject": "Subject",
+    "form-cv-upload": "Upload your Resume",
+    "form-message": "Your message",
+    "form-submit": "Send"
+}
