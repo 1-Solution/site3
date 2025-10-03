@@ -1,0 +1,26 @@
+[
+  {
+    "name-key": "perk-1-name",
+    "img": "/images/perk-1.svg"
+  },
+  {
+    "name-key": "perk-2-name",
+    "img": "/images/perk-2.svg"
+  },
+  {
+    "name-key": "perk-3-name",
+    "img": "/images/perk-3.svg"
+  },
+  {
+    "name-key": "perk-4-name",
+    "img": "/images/perk-4.svg"
+  },
+  {
+    "name-key": "perk-5-name",
+    "img": "/images/perk-5.svg"
+  },
+  {
+    "name-key": "perk-6-name",
+    "img": "/images/perk-6.svg"
+  }
+]

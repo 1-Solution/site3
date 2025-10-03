@@ -1,13 +1,21 @@
 <div class="grid">
   <div class="text-center lg:text-left">
-    <h1 data-i18n="partners:title" class="text-5xl lg:text-8xl not-prose font-bold leading-tight text-white mb-10">
-    </h1>
+    <h1
+      data-i18n="partners:title"
+      class="text-5xl lg:text-8xl not-prose font-bold leading-tight text-white mb-10"
+    ></h1>
   </div>
-  <div id="partners-scroll" class="overflow-x-auto snap-x snap-mandatory flex space-x-8 px-4 p-8 scrollbar-hidden">
+  <div
+    id="partners-scroll"
+    class="overflow-x-auto snap-x snap-mandatory flex space-x-8 px-4 p-8 scrollbar-hidden"
+  >
     {{#each @root.partners}}
     <article
-      class="w-full lg:w-2/5 shrink-0 flex flex-col gap-8 place-items-start text-left rounded-xl p-8 text-white border-t-2 border-r-2 border-white">
-      <p data-i18n="partners:{{ quote-key }}" class="!m-0 text-2xl font-medium">""</p>
+      class="w-full lg:w-2/5 shrink-0 flex flex-col gap-8 place-items-start text-left rounded-xl p-8 text-white border-t-2 border-r-2 border-white"
+    >
+      <p data-i18n="partners:{{ quote-key }}" class="!m-0 text-2xl font-medium">
+        ""
+      </p>
       <div class="grid mt-auto">
         <img src="{{ logo }}" alt="" class="!mt-0 !mb-3 w-8" />
         <p data-i18n="partners:{{ name-key }}" class="!m-0 font-bold"></p>
@@ -18,20 +26,30 @@
   </div>
   <div>
     <div class="flex justify-around gap-4 mt-4">
-      <img src="/images/icon-arrow-3.svg" alt="Arrow icon" class="w-8 h-8 inline-block rotate-180" onclick="
+      <img
+        src="/images/icon-arrow-3.svg"
+        alt="Arrow icon"
+        class="w-8 h-8 inline-block rotate-180"
+        onclick="
           const containerLeft = document.getElementById('partners-scroll');
           const itemLeft = containerLeft.querySelector('article');
           if (itemLeft) {
             containerLeft.scrollBy({ left: -(itemLeft.offsetWidth + 32), behavior: 'smooth' });
           }
-        " />
-      <img src="/images/icon-arrow-3.svg" alt="Arrow icon" class="w-8 h-8 inline-block" onclick="
+        "
+      />
+      <img
+        src="/images/icon-arrow-3.svg"
+        alt="Arrow icon"
+        class="w-8 h-8 inline-block"
+        onclick="
           const containerRight = document.getElementById('partners-scroll');
           const itemRight = containerRight.querySelector('article');
           if (itemRight) {
             containerRight.scrollBy({ left: itemRight.offsetWidth + 32, behavior: 'smooth' });
           }
-        " />
+        "
+      />
     </div>
   </div>
 </div>

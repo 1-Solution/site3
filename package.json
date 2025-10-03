@@ -7,13 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "optimize-images": "imagemin 'src/images/**/*.{jpg,png}' --out-dir=dist/images --plugin=webp --plugin=mozjpeg"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.8",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-webp": "^7.0.0",
     "prettier": "^3.4.2",
     "tailwindcss": "^4.1.8",
     "vite": "^6.0.2",

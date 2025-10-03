@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* default border color */
 @layer base {
@@ -29,11 +29,11 @@
   /* how to customise default font stack */
   --font-sans: 'Satoshi', sans-serif;
 
-  --color-brand-blue: #0C2830;
-  --color-brand-blueL: #42B5C5;
-  --color-brand-patate: #42B5C5;
-  --color-brand-orange: #FF6500;
-  --color-brand-beige: #C8BBAE;
+  --color-brand-blue: #0c2830;
+  --color-brand-blueL: #42b5c5;
+  --color-brand-patate: #42b5c5;
+  --color-brand-orange: #ff6500;
+  --color-brand-beige: #c8bbae;
 }
 
 @variant lg {

@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './src/**/*.{html,js,jsx,ts,tsx}',
-    './src/partials/**/*.html',    // Adjust the paths based on your project structure
+    './src/partials/**/*.html', // Adjust the paths based on your project structure
   ],
   theme: {
     extend: {
@@ -10,8 +10,7 @@ module.exports = {
         'brand-blue': '#0C2830',
         'brand-orange': '#42B5C5',
       },
-      backgroundImage: {
-      }
-    }
-  }
-}
+      backgroundImage: {},
+    },
+  },
+};

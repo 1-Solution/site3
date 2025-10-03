@@ -1,0 +1,12 @@
+[
+  {
+    "id": "job",
+    "partial": "section-job",
+    "section-classes": "bg-brand-blue"
+  },
+  {
+    "id": "cv",
+    "partial": "section-cv",
+    "section-classes": "bg-brand-orange"
+  }
+]

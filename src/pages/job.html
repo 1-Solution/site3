@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    {{> head title="job" }}
+    <script src="https://unpkg.com/i18next@23.4.6/dist/umd/i18next.min.js"></script>
+  </head>
+
+  <body class="prose prose-gray max-w-none text-lg">
+    {{> header class="bg-brand-blue" }}
+    <main>
+      {{#each sections-job}} {{#> section-wrapper}} {{> (lookup . "partial") }}
+      {{/section-wrapper}} {{/each}}
+    </main>
+    {{> footer }}
+    <script type="module" src='{{resolve-from-root "../js/main.js"}}'></script>
+  </body>
+</html>

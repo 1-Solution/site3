@@ -1,24 +1,42 @@
 <div class="text-center grid place-items-center gap-20 rotate-180 pb-25">
   <div class="grid gap-12">
-    <h1 data-i18n="team:title" class="text-5xl lg:text-8xl not-prose font-bold leading-tight text-white">
-    </h1>
-    <p data-i18n="team:description" class="text-white">
-    </p>
-    <a data-i18n="team:join-us" href="/careers" class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mx-auto"
-      role="button">
+    <h1
+      data-i18n="team:title"
+      class="text-5xl lg:text-8xl not-prose font-bold leading-tight text-white"
+    ></h1>
+    <p data-i18n="team:description" class="text-white"></p>
+    <a
+      data-i18n="team:join-us"
+      href="/careers"
+      class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mx-auto"
+      role="button"
+    >
     </a>
   </div>
   <div class="grid gap-12 lg:grid-cols-4 offset-team">
     {{#each @root.team}}
     <article class="group flex flex-col gap-2 items-start text-left">
       <div
-        class="relative w-auto h-full rounded-4xl overflow-hidden transition-transform duration-200 group-hover:scale-110">
-        <img src="{{this.img}}" class="w-full h-full not-prose object-cover" />
+        class="relative w-auto h-full rounded-4xl overflow-hidden transition-transform duration-200 group-hover:scale-110"
+      >
+        <img
+          src="{{this.img}}"
+          alt="{{this.name}}"
+          class="w-full h-full not-prose object-cover"
+        />
 
         <!-- Gradient + Text overlay -->
-        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 from-20% to-transparent p-4">
-          <p data-i18n="team:{{this.name-key}}" class="text-white text-lg not-prose font-bold"></p>
-          <p data-i18n="team:{{this.title-key}}" class="text-white text-sm not-prose"></p>
+        <div
+          class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 from-20% to-transparent p-4"
+        >
+          <p
+            data-i18n="team:{{this.name-key}}"
+            class="text-white text-lg not-prose font-bold"
+          ></p>
+          <p
+            data-i18n="team:{{this.title-key}}"
+            class="text-white text-sm not-prose"
+          ></p>
         </div>
       </div>
     </article>

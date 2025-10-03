@@ -5,10 +5,10 @@ A modern, responsive business website built with Vite, Handlebars, and Tailwind 
 ## 📋 TODO
 
 ### 🚨 High Priority
+
 - [ ] Fix form submissions with powerautomate pipeline => done when migrating to new netlify
-- [ ] Add form to sumbit cvs
-- [ ] Replace placeholders with actual images
-- [ ] Add missing section with random images
+- [ ] Nicer form for CV submission
+- [ ] Ajouter les cookies de navigation et les popup relevant
 
 ## ✨ Features
 
@@ -23,6 +23,7 @@ A modern, responsive business website built with Vite, Handlebars, and Tailwind 
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 
@@ -105,6 +106,7 @@ public/
 4. Update navigation in `src/data/menu.json`
 
 Example:
+
 ```javascript
 // vite.config.js
 input: {
@@ -128,6 +130,7 @@ The project uses i18next for translations:
 - **Placeholders**: `data-i18n-placeholder="namespace:key"`
 
 Example:
+
 ```html
 <h1 data-i18n="hero:title"></h1>
 <input data-i18n-placeholder="contact:form-name" />
@@ -138,6 +141,7 @@ Example:
 ### Tailwind Configuration
 
 Custom brand colors are defined in `tailwind.config.js`:
+
 - `brand-blue`: #0C2830
 - `brand-orange`: #42B5C5
 
@@ -165,6 +169,7 @@ Forms are configured for Netlify deployment with the `netlify` attribute:
 ## 🌍 Language Support
 
 Currently supports:
+
 - **French (fr)** - Default language
 - **English (en)**
 
@@ -194,6 +199,7 @@ npm run build
 ### Vite Configuration
 
 Key features enabled in `vite.config.js`:
+
 - Handlebars templating with partials support
 - Tailwind CSS integration
 - Hot reload for partials changes
@@ -203,6 +209,7 @@ Key features enabled in `vite.config.js`:
 ### Data-Driven Content
 
 Content is managed through JSON files in `src/data/`:
+
 - `sections-*.json` - Define which sections appear on each page
 - `menu.json` - Navigation structure
 - `careers.json`, `team.json`, etc. - Page-specific content

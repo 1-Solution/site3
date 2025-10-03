@@ -1,18 +1,26 @@
 [
-    {
-        "img": "/images/career-1.png",
-        "job-title-key": "job-1-title"
-    },
-    {
-        "img": "/images/career-2.png",
-        "job-title-key": "job-2-title"
-    },
-    {
-        "img": "/images/career-3.png",
-        "job-title-key": "job-3-title"
-    },
-    {
-        "img": "/images/career-4.png",
-        "job-title-key": "job-4-title"
-    }
+  {
+    "id": "job-1",
+    "img": "/images/career-1.png",
+    "job-title-key": "job-1-title",
+    "job-description-key": "job-1-description",
+    "job-location-key": "job-1-location",
+    "technologies": ["C#", "Java", "JavaScript", "Ruby"]
+  },
+  {
+    "id": "job-2",
+    "img": "/images/career-2.png",
+    "job-title-key": "job-2-title",
+    "job-description-key": "job-2-description",
+    "job-location-key": "job-2-location",
+    "technologies": ["AWS", "Azure", "GCP", "Terraform"]
+  },
+  {
+    "id": "job-3",
+    "img": "/images/career-3.png",
+    "job-title-key": "job-3-title",
+    "job-description-key": "job-3-description",
+    "job-location-key": "job-3-location",
+    "technologies": []
+  }
 ]

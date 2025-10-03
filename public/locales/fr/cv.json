@@ -1,12 +1,12 @@
 {
-    "title": "Envoyez-nous votre CV",
-    "description": "Nous sommes toujours à la recherche de nouveaux talents. Si vous souhaitez faire partie de notre équipe, envoyez-nous votre CV et nous vous contacterons si une opportunité correspond à votre profil.",
-    "description-email": "info@1-solution.ca",
-    "description-adresse": "6300 Av. Auteuil - Suite #505 <br/>Brossard, Québec, Canada",
-    "form-name": "Nom",
-    "form-email": "Email",
-    "form-subject": "Sujet",
-    "form-cv-upload": "Téléchargez votre CV",
-    "form-message": "Votre message",
-    "form-submit": "Envoyer"
+  "title": "Envoyez-nous votre CV",
+  "description": "Nous sommes toujours à la recherche de nouveaux talents. Si vous souhaitez faire partie de notre équipe, envoyez-nous votre CV et nous vous contacterons si une opportunité correspond à votre profil.",
+  "description-email": "cv@1-solution.ca",
+  "description-adresse": "6300 Av. Auteuil - Suite #505 <br/>Brossard, Québec, Canada",
+  "form-name": "Nom",
+  "form-email": "Email",
+  "form-subject": "Sujet",
+  "form-cv-upload": "Téléchargez votre CV",
+  "form-message": "Votre message",
+  "form-submit": "Envoyer"
 }

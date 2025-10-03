@@ -1,26 +1,70 @@
 <div class="text-center grid gap-20 bg-brand-beige mt-20">
   <div class="lg:flex lg:flex-row gap-16 text-white">
-    <h1 data-i18n="careers:title" class="text-5xl lg:text-8xl font-bold not-prose leading-tight lg:text-left lg:w-1/2">
-    </h1>
-    <p data-i18n="careers:description" class="max-w-md lg:w-1/2">
-    </p>
+    <h1
+      data-i18n="careers:title"
+      class="text-5xl lg:text-8xl font-bold not-prose leading-tight lg:text-left lg:w-1/2"
+    ></h1>
+    <p data-i18n="careers:description" class="max-w-md lg:w-1/2"></p>
   </div>
   <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 place-items-center">
     {{#each @root.careers}}
-    <a href="/contact" class="block no-underline">
-      <article class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200">
-        <img src="{{ img }}" alt="Feature icon" class="w-full aspect-[4/3] object-cover inline-block rounded-4xl" />
-        <h4 class="text-white not-prose pb-4" data-i18n="careers:{{ job-title-key }}"></h4>
-        <img src="/images/icon-arrow-2.svg" alt="Arrow icon" class="w-8 h-8 inline-block" />
+    <a href="/job#{{ id }}" class="block no-underline">
+      <article
+        class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200"
+      >
+        <div
+          class="w-full aspect-[4/3] bg-gray-200 rounded-4xl overflow-hidden"
+        >
+          <img
+            src="{{ img }}"
+            alt="Feature icon"
+            class="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
+            style="content-visibility: auto"
+            width="400"
+            height="300"
+          />
+        </div>
+        <h2
+          class="text-white not-prose pb-4"
+          data-i18n="careers:{{ job-title-key }}"
+        ></h2>
+        <img
+          src="/images/icon-arrow-2.svg"
+          alt="Arrow icon"
+          class="w-8 h-8 inline-block"
+        />
       </article>
     </a>
     {{/each}}
-    <a href="/contact" class="block no-underline">
-      <article class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200">
-        <img src="/images/img-perks.jpg" alt="Feature icon"
-          class="w-full aspect-[4/3] object-cover inline-block rounded-4xl" />
-        <h4 data-i18n="careers:perks-title" class="text-white not-prose pb-4"></h4>
-        <img src="/images/icon-arrow-2.svg" alt="Arrow icon" class="w-8 h-8 inline-block" />
+    <a href="/job#perks" class="block no-underline">
+      <article
+        class="gap-4 items-start text-left p-4 cursor-pointer hover:scale-110 duration-200"
+      >
+        <div
+          class="w-full aspect-[4/3] bg-gray-200 rounded-4xl overflow-hidden"
+        >
+          <img
+            src="/images/img-perks.jpg"
+            alt="Feature icon"
+            class="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
+            style="content-visibility: auto"
+            width="400"
+            height="300"
+          />
+        </div>
+        <h2
+          data-i18n="careers:perks-title"
+          class="text-white not-prose pb-4"
+        ></h2>
+        <img
+          src="/images/icon-arrow-2.svg"
+          alt="Arrow icon"
+          class="w-8 h-8 inline-block"
+        />
       </article>
     </a>
   </div>

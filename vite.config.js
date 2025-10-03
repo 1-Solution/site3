@@ -40,7 +40,7 @@ export default {
     handlebars({
       // This is the directory where your partials are located
       helpers: {
-        eq: (a, b) => a === b
+        eq: (a, b) => a === b,
       },
       partialDirectory: path.resolve(__dirname, 'src/partials'),
       context: loadData(),

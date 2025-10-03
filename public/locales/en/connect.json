@@ -1,7 +1,7 @@
 {
-    "title": "Stay Connected",
-    "description": "Sign up for our newsletter and be the first to know about upcoming hiring rounds.",
-    "form-name": "Name",
-    "form-email": "Email",
-    "form-submit": "Join the newsletter"
+  "title": "Stay Connected",
+  "description": "Sign up for our newsletter and be the first to know about upcoming hiring rounds.",
+  "form-name": "Name",
+  "form-email": "Email",
+  "form-submit": "Join the newsletter"
 }

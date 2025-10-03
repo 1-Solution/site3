@@ -1,30 +1,61 @@
 <div class="text-center lg:grid gap-12">
   <div class="lg:flex lg:flex-row gap-16 text-white">
     <div class="lg:w-1/2">
-      <h1 data-i18n="contact:title" class="text-5xl font-bold not-prose leading-tight lg:text-left lg:w-1/2">
-      </h1>
+      <h1
+        data-i18n="contact:title"
+        class="text-5xl font-bold not-prose leading-tight lg:text-left lg:w-1/2"
+      ></h1>
       <div class="text-left">
         <p data-i18n="contact:description"></p>
         <p data-i18n="contact:description-email"></p>
         <p data-i18n="contact:description-adresse"></p>
       </div>
-      </p>
     </div>
-    <form name="contact" encType="multipart/form-data" id="contact-form" class="flex flex-col gap-4 lg:w-1/2" netlify>
-      <input type="text" id="name" name="name" required
+    <form
+      name="contact"
+      enctype="multipart/form-data"
+      id="contact-form"
+      class="flex flex-col gap-4 lg:w-1/2"
+      netlify
+    >
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        data-i18n-placeholder="contact:form-name" />
-      <input type="text" id="email" name="email" required
+        data-i18n-placeholder="contact:form-name"
+      />
+      <input
+        type="text"
+        id="email"
+        name="email"
+        required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        data-i18n-placeholder="contact:form-email" />
-      <input type="text" id="subject" name="subject" required
+        data-i18n-placeholder="contact:form-email"
+      />
+      <input
+        type="text"
+        id="subject"
+        name="subject"
+        required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        data-i18n-placeholder="contact:form-subject" />
-      <textarea id="message" name="message" required
+        data-i18n-placeholder="contact:form-subject"
+      />
+      <textarea
+        id="message"
+        name="message"
+        required
         class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        data-i18n-placeholder="contact:form-message" rows="4"></textarea>
-      <button data-i18n="contact:form-submit" type="submit" class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mt-4"
-        role="button"></button>
+        data-i18n-placeholder="contact:form-message"
+        rows="4"
+      ></textarea>
+      <button
+        data-i18n="contact:form-submit"
+        type="submit"
+        class="btn btn-sm h-fit w-fit lg:flex bg-brand-orange mt-4"
+        role="button"
+      ></button>
     </form>
   </div>
 </div>
