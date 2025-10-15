@@ -70,6 +70,7 @@ export default {
         contact: path.resolve(__dirname, 'src/pages/contact.html'),
         careers: path.resolve(__dirname, 'src/pages/careers.html'),
         services: path.resolve(__dirname, 'src/pages/services.html'),
+        jobs: path.resolve(__dirname, 'src/pages/jobs.html'),
       },
     },
   },
