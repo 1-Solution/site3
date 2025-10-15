@@ -7,7 +7,6 @@ A modern, responsive business website built with Vite, Handlebars, and Tailwind 
 ### 🚨 High Priority
 
 - [ ] Fix form submissions with powerautomate pipeline => done when migrating to new netlify
-- [ ] Nicer form for CV submission
 - [ ] Ajouter les cookies de navigation et les popup relevant
 
 ## ✨ Features

@@ -1,26 +1,37 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title data-i18n="meta:title">{{ title }}</title>
-<meta name="description" data-i18n="meta:description" content="{{ description }}">
-<meta name="keywords" data-i18n="meta:keywords" content="{{ keywords }}">
+<meta
+  name="description"
+  data-i18n="meta:description"
+  content="{{ description }}"
+/>
+<meta name="keywords" data-i18n="meta:keywords" content="{{ keywords }}" />
 
 <!-- Open Graph meta tags for social sharing -->
-<meta property="og:title" data-i18n="meta:og-title" content="{{ title }}">
-<meta property="og:description" data-i18n="meta:og-description" content="{{ description }}">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ canonical_url }}">
-<meta property="og:image" content="{{ og_image }}">
+<meta property="og:title" data-i18n="meta:og-title" content="{{ title }}" />
+<meta
+  property="og:description"
+  data-i18n="meta:og-description"
+  content="{{ description }}"
+/>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ canonical_url }}" />
+<meta property="og:image" content="{{ og_image }}" />
 
 <!-- Canonical URL -->
-<link rel="canonical" href="{{ canonical_url }}">
+<link rel="canonical" href="{{ canonical_url }}" />
 
 <!-- Favicon -->
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
 <!-- here is your favicon. You can update it in the public/images folder -->
 <link rel="icon" href="/images/head-logo.svg" type="image/png" />
 <!-- this is your custom font. Update/remove this if you want to use a different font-->
-<link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" rel="stylesheet" />
+<link
+  href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap"
+  rel="stylesheet"
+/>
 <!-- here is your page title. It is passed in as the title prop when you call the partial -->
 <title>1-Solution</title>
 <link rel="stylesheet" href='{{resolve-from-root "../styles/main.css"}}' />

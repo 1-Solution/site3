@@ -43,16 +43,78 @@
         data-i18n-placeholder="cv:form-subject"
       />
       <div class="w-full">
-        <p class="text-left text-sm" data-i18n="cv:form-cv-upload"></p>
-        <input
-          type="file"
-          id="cv-file"
-          name="cv-file"
-          required
-          accept=".pdf,.doc,.docx"
-          class="w-full border-b border-gray-300 focus:outline-none focus:border-brand-orange transition duration-300 bg-transparent px-0 py-1"
-        />
+        <label
+          for="cv-file"
+          class="block text-left text-sm text-white mb-2"
+          data-i18n="cv:form-cv-upload"
+        ></label>
+        <div class="relative">
+          <input
+            type="file"
+            id="cv-file"
+            name="cv-file"
+            required
+            accept=".pdf,.doc,.docx"
+            class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+            onchange="updateFileDisplay(this)"
+          />
+          <div
+            id="file-drop-area"
+            class="w-full border-2 border-dashed border-gray-300 hover:border-brand-orange focus-within:border-brand-orange transition duration-300 bg-transparent px-4 py-6 rounded-lg text-center"
+          >
+            <svg
+              id="upload-icon"
+              class="mx-auto h-8 w-8 text-gray-300 mb-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+              ></path>
+            </svg>
+            <p
+              id="upload-text"
+              class="text-sm text-gray-300"
+              data-i18n="cv:form-cv-upload-dragdrop"
+            ></p>
+            <p
+              id="upload-subtext"
+              class="text-xs text-gray-300 mt-1"
+              data-i18n="cv:form-cv-upload-type"
+            ></p>
+            <p id="file-name" class="text-sm text-white font-medium hidden"></p>
+          </div>
+        </div>
       </div>
+      <script>
+        function updateFileDisplay(input) {
+          const fileName = input.files[0]?.name;
+          const fileDropArea = document.getElementById('file-drop-area');
+          const uploadIcon = document.getElementById('upload-icon');
+          const uploadText = document.getElementById('upload-text');
+          const uploadSubtext = document.getElementById('upload-subtext');
+          const fileNameDisplay = document.getElementById('file-name');
+
+          if (fileName) {
+            fileDropArea.classList.remove('border-gray-300');
+            fileDropArea.classList.add(
+              'border-brand-orange',
+              'bg-brand-orange',
+              'bg-opacity-10',
+              'text-white'
+            );
+            uploadIcon.classList.add('hidden');
+            uploadText.classList.add('hidden');
+            uploadSubtext.classList.add('hidden');
+            fileNameDisplay.textContent = fileName;
+            fileNameDisplay.classList.remove('hidden');
+          }
+        }
+      </script>
       <textarea
         id="message"
         name="message"

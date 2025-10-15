@@ -7,6 +7,8 @@
   "form-email": "Email",
   "form-subject": "Subject",
   "form-cv-upload": "Upload your resume",
+  "form-cv-upload-dragdrop": "Click to upload or drag and drop",
+  "form-cv-upload-type": "PDF, DOC, DOCX up to 10MB",
   "form-message": "Your message",
   "form-submit": "Send"
 }

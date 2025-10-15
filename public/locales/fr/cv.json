@@ -7,6 +7,8 @@
   "form-email": "Email",
   "form-subject": "Sujet",
   "form-cv-upload": "Téléchargez votre CV",
+  "form-cv-upload-dragdrop": "Cliquez pour télécharger ou glisser-déposer",
+  "form-cv-upload-type": "PDF, DOC, DOCX jusqu'à 10 Mo",
   "form-message": "Votre message",
   "form-submit": "Envoyer"
 }
