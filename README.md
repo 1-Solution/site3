@@ -135,6 +135,40 @@ Example:
 <input data-i18n-placeholder="contact:form-name" />
 ```
 
+## 🍪 Cookie consent & Google tags
+
+The cookie consent banner records the visitor's choice in `localStorage` under the
+`cookie-consent-preference` key and exposes it globally as `window.__cookieConsentPreference`.
+Every time the preference changes a `cookie-consent-change` custom event is dispatched with the
+current value (`accepted` or `declined`) so additional scripts can react accordingly.
+
+For Google Analytics / Google Tag Manager integrations:
+
+1. Declare the measurement IDs before `src/js/main.js` loads, for example in the page `<head>`:
+
+   ```html
+   <script>
+     window.GTAG_MEASUREMENT_IDS = ['G-XXXXXXX'];
+   </script>
+   ```
+
+2. The `src/js/google-tags.js` module automatically listens to the consent events. When visitors
+   accept, it injects the Google tag script, initialises the `dataLayer`, and configures all
+   declared IDs with IP anonymisation.
+3. When visitors decline, the module prevents Google tags from firing by removing the injected
+   script, setting `window['ga-disable-&lt;ID&gt;'] = true` for each measurement ID, and keeping Google
+   consent signals in the `denied` state. No additional action is required on your part.
+
+If you need to handle other third-party tools, hook into the `cookie-consent-change` event:
+
+```js
+document.addEventListener('cookie-consent-change', (event) => {
+  if (event.detail.value === 'declined') {
+    // pause or disable additional tracking pixels here
+  }
+});
+```
+
 ## 🎨 Styling
 
 ### Tailwind Configuration

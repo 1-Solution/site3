@@ -16,6 +16,16 @@ const hideBanner = (banner) => {
   banner.addEventListener('transitionend', handleTransitionEnd);
 };
 
+const applyPreference = (value) => {
+  window.__cookieConsentPreference = value;
+  document.documentElement.dataset.cookieConsent = value;
+  document.dispatchEvent(
+    new CustomEvent('cookie-consent-change', {
+      detail: { value },
+    }),
+  );
+};
+
 const initCookieConsent = () => {
   const banner = document.querySelector('[data-cookie-consent]');
   if (!banner) return;
@@ -24,10 +34,13 @@ const initCookieConsent = () => {
 
   if (!storedPreference) {
     showBanner(banner);
+  } else {
+    applyPreference(storedPreference);
   }
 
   const savePreference = (value) => {
     window.localStorage.setItem(STORAGE_KEY, value);
+    applyPreference(value);
     hideBanner(banner);
   };
 
