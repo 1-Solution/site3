@@ -1,0 +1,42 @@
+<div
+  data-cookie-consent
+  class="fixed bottom-6 right-6 z-40 w-[min(100%,28rem)] max-w-full rounded-3xl bg-white p-6 text-base shadow-2xl shadow-black/10 transition-all duration-300 ease-out opacity-0 translate-y-4 hidden lg:w-96"
+  role="dialog"
+  aria-live="polite"
+  aria-label="Cookie consent"
+>
+  <div class="flex items-start gap-4">
+    <div class="mt-1">
+      <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-brand-blue/10 text-brand-blue">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
+          <path
+            fill-rule="evenodd"
+            d="M10.5 2.132a1.125 1.125 0 0 1 1.063 0l9 4.875A1.125 1.125 0 0 1 21.75 8v8.625a1.125 1.125 0 0 1-.563.978l-9 5.063a1.125 1.125 0 0 1-1.124 0l-9-5.063a1.125 1.125 0 0 1-.563-.978V8a1.125 1.125 0 0 1 .563-.993l9-4.875Z"
+            clip-rule="evenodd"
+          />
+          <path
+            d="M6.75 9.75a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-9a.75.75 0 0 1-.75-.75V9.75Zm0 3.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-.75Z"
+          />
+        </svg>
+      </span>
+    </div>
+    <div>
+      <p data-i18n="cookies:message" class="text-sm text-gray-900"></p>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <button
+          type="button"
+          data-cookie-accept
+          data-i18n="cookies:accept"
+          class="inline-flex flex-1 items-center justify-center rounded-full bg-brand-blue px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-blue/90 focus:outline-none focus-visible:ring focus-visible:ring-brand-blue/40"
+        ></button>
+        <button
+          type="button"
+          data-cookie-decline
+          data-i18n="cookies:decline"
+          class="inline-flex flex-1 items-center justify-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-700 transition hover:border-brand-blue hover:text-brand-blue focus:outline-none focus-visible:ring focus-visible:ring-brand-blue/30"
+        ></button>
+      </div>
+      <p data-i18n="cookies:learnMore" class="mt-3 text-xs text-gray-500"></p>
+    </div>
+  </div>
+</div>
