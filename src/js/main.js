@@ -69,4 +69,18 @@ i18next
         const key = el.getAttribute('data-i18n');
         el.setAttribute('content', i18next.t(key));
       });
+
+    // Handle anchor navigation after translations are loaded
+    if (window.location.hash) {
+      // Small delay to ensure content is rendered
+      setTimeout(() => {
+        const element = document.querySelector(window.location.hash);
+        if (element) {
+          element.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }, 100);
+    }
   });
