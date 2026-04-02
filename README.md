@@ -169,6 +169,21 @@ document.addEventListener('cookie-consent-change', (event) => {
 });
 ```
 
+For LinkedIn Insight Tag integrations:
+
+1. Declare the partner IDs before `src/js/main.js` loads, for example in the page `<head>`:
+
+   ```html
+   <script>
+     window.LINKEDIN_PARTNER_IDS = ['8366626'];
+   </script>
+   ```
+
+2. The `src/js/linkedin-tags.js` module listens to the same consent events and injects the LinkedIn
+   Insight Tag only after visitors accept tracking.
+3. If visitors decline, or later revoke consent, the LinkedIn script is removed and no new Insight
+   Tag library loads are triggered.
+
 ## 🎨 Styling
 
 ### Tailwind Configuration
