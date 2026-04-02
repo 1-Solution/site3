@@ -42,7 +42,7 @@ i18next
   .then(() => {
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.getAttribute('data-i18n');
-      el.innerHTML = i18next.t(key);
+      el.textContent = i18next.t(key);
     });
 
     document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
