@@ -1,5 +1,8 @@
 import './contact';
 import './mobile-menu';
+import './cookie-consent';
+import './google-tags';
+import './linkedin-tags';
 import i18next from 'i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -30,6 +33,7 @@ i18next
       'cv',
       'job',
       'meta',
+      'cookies',
     ],
     defaultNS: 'hero',
     interpolation: { escapeValue: false },
@@ -38,7 +42,7 @@ i18next
   .then(() => {
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.getAttribute('data-i18n');
-      el.innerHTML = i18next.t(key);
+      el.textContent = i18next.t(key);
     });
 
     document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
