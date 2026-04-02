@@ -1,4 +1,4 @@
-const GTAG_SCRIPT_ID = 'gtag-library';
+const GTAG_SCRIPT_ID = 'G-KRNKWZGBPG';
 
 const measurementIds = Array.isArray(window.GTAG_MEASUREMENT_IDS)
   ? window.GTAG_MEASUREMENT_IDS
