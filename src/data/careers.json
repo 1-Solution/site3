@@ -22,5 +22,13 @@
     "job-description-key": "job-3-description",
     "job-location-key": "job-3-location",
     "technologies": []
+  },
+  {
+    "id": "job-4",
+    "img": "/images/career-4.png",
+    "job-title-key": "job-4-title",
+    "job-description-key": "job-4-description",
+    "job-location-key": "job-4-location",
+    "technologies": ["React", "TypeScript", "React Native", "Expo"]
   }
 ]
